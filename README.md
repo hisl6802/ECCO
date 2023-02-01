@@ -1,5 +1,5 @@
-# June Lab Clustering GUI
-### Please contact me through Discord if you are in the June Lab or through brady.hislop@student.montana.edu for example files that will work in this GUI.
+# ECCO: Ensemble Clustering Combined with Clustering Optimization
+### This software is licensed under a BSD-3 Clause licence (please see the licence file). This software is as-is and is not supported by our group for any bugs or issues that may arise. However, we are attaching extensive documentation and a full list of the dependencies below. 
 
 
 
