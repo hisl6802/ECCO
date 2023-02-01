@@ -3,7 +3,7 @@
 
 
 
-## Make sure to download the following libraries before getting started with this GUI.
+## Make sure to download the following libraries before getting started with this UI. It is recommended that all packages are install using `pip install <package>`
 - [numpy](https://numpy.org/)  
 - [scipy](https://www.scipy.org/)
 - [pandas](https://pandas.pydata.org/)
