@@ -47,7 +47,8 @@ class JuneLabClusteringGUI(ttk.Frame):
 		self.ThreadsLab = ttk.Label(self, text="Number of threads:",font=("TkHeadingFont",16)).grid(column=2,row=3,sticky=(N,S,E,W),pady=1)
 		self.entryThreads = ttk.Entry(self,textvariable=self.threads).grid(column=2,row=4,sticky=(N,S,E,W), pady=1,padx = 5)
 		self.ThreadsULab = ttk.Label(self, text="You have "+str(numThreads)+ " available. (Using half or less is recommended.)",font=("TkHeadingFont",16)).grid(column=2,row=5,sticky=(N,S,E,W),pady=2)
-		self.getStarted = ttk.Button(self,text="Get Started!",command=self.create_widgets).grid(column=2, row=6,sticky=(N,S,E,W),columnspan=1)
+		self.dataPreprocessing = ttk.Button(self, text="Pre-Process", command=self.preprocess).grid(column=2,row=6,sticky=(N,S,E,W),columnspan=1)
+		self.getStarted = ttk.Button(self,text="Get Started!",command=self.create_widgets).grid(column=2, row=7,sticky=(N,S,E,W),columnspan=1)
 
 	def create_widgets(self):
 		'''
@@ -144,6 +145,28 @@ class JuneLabClusteringGUI(ttk.Frame):
 			count += 1
 			if count < 10:
 				child.grid_configure(padx=5,pady=5)
+
+
+	def preprocess(self):
+		# ask for open files names, then use filecheck to verify file type is correct
+		filename = filedialog.askopenfilename()
+		metab_data = GB.fileCheck(file=filename)
+
+		#get the the first row of the dataframe 
+		labels = metab_data.iloc[0]
+		metab_data_c = metab_data.drop(0,axis=0)
+		columns = list(metab_data_c.columns)
+
+		#remove the first and last columns then drop the duplicates
+		columns.pop(0)
+		columns.pop(len(columns)-1)
+
+		#pre-process the data for duplicates (this will be especially important for the medians)
+		metab_data_c = metab_data_c.drop_duplicates(subset=columns)
+
+		#save the pre-processed data sheet, and notify the user
+		metab_data_c.to_excel("pre_processed_data.xlsx",index=False)
+		messagebox.showinfo(title="Completed",message="Pre-processing completed!")
 
 
 	def createClustergram(self):

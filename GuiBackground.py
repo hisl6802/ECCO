@@ -1437,7 +1437,7 @@ def readAndPreProcess(file='',transform = 'None', scale ='None',func='else',firs
         col_groups = pd.Series(col_groups,copy=False)
         metab_data = metab_data.drop(0,axis=0)
         #read in data
-        data = dataCheck(metab_data)
+        data = readInColumns(metab_data)
 
         #put the data through the appropriate transformations. 
         data = transformations(data,transform=transform,scale=scale, first=first)
@@ -1448,7 +1448,7 @@ def readAndPreProcess(file='',transform = 'None', scale ='None',func='else',firs
         #remove the first row of data.
         metab_data = metab_data.iloc[1:,:]
 
-        data = dataCheck(metab_data)
+        data = readInColumns(metab_data)
 
         data = transformations(data,transform=transform,scale=scale,first=first)
         return data
@@ -1460,7 +1460,7 @@ def readAndPreProcess(file='',transform = 'None', scale ='None',func='else',firs
 
     else:
         #read in data
-        data = dataCheck(metab_data)
+        data = readInColumns(metab_data)
         #transform the data
         data = transformations(data,transform=transform,scale=scale,first=first)
         return data
