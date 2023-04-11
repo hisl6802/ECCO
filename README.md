@@ -5,7 +5,8 @@
 # Set-Up
 
 ## 1) Download the source code. 
-``
+`git clone https://github.com/hisl6802/ECCO`
+or by downloading a zip file from the 
 
 
 # I do recommend running this in a virtual environment. I prefer conda virtual environments but other python based environments should work. 
