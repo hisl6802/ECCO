@@ -12,8 +12,8 @@ or by downloading a zip file from the Code <> button above.
 
 ## 2) Set up a virtual environment (example of how to establish with conda below):
 - It is not required that you run this in a virtual environment but highly recommended
-`conda create ECCO_env`
-`conda activate ECCO_env`
+- `conda create ECCO_env`
+- `conda activate ECCO_env`
 
 ## 3) Install the packages necessary to run the UI
 `pip install <package>`
