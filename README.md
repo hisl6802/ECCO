@@ -35,7 +35,14 @@ Make sure to download the following packages before getting started with this UI
 
 `ECCO_UI.py`
 
-## Additionally, this program can be run from the command line by running the following command from the directory containing ECCO_UI.py
+## 5) Or this program can be run from the command line by running the following command from the directory containing ECCO_UI.py
 
 `/path/to/directory> python3 ECCO_UI.py`
+
+## 6) Troubleshooting
+I recommend that you run in the IDLE or on the command line as any missing modules will be listed in the intialization error. 
+
+
+## 7) Help/Issue Reporting
+Please reach out to me at brady.hislop@student.montana.edu with any issues, or troubles getting things set up. 
  
