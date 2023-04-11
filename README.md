@@ -1,7 +1,14 @@
 # ECCO UI
 ### Please see the Example Files directory for examples of input files for all functionalities expect the Selected Clusters Figure functionality
 
-## Make sure to download the following libraries before getting started with this GUI.
+# I do recommend running this in a virtual environment. I prefer conda virtual environments but other python based environments should work. 
+## If you already have python installed with pip on the command install packages using:
+`pip install <package>`
+
+## If you do not have python installed, install at [python.org](python.org)
+### Make sure to have python installed on the command line and that it install pip
+
+## Make sure to download the following libraries before getting started with this UI.
 - [numpy](https://numpy.org/)  
 - [scipy](https://www.scipy.org/)
 - [pandas](https://pandas.pydata.org/)
@@ -15,11 +22,11 @@
 - openpyxl (needed for reading in excel sheets)
 
 
-## After downloading the requisite libaries needed. Open a shell and run the following program:
+## After downloading the requisite libaries needed. Open a shell in IDLE, open the file listed below and run the following program:
 
 `ECCO_UI.py`
 
-## Additionally, this program can be run from the command line by running the following command from the directory containing initGUI.py
+## Additionally, this program can be run from the command line by running the following command from the directory containing ECCO_UI.py
 
 `/path/to/directory> python3 ECCO_UI.py`
  
