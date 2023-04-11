@@ -1,22 +1,24 @@
 # ECCO UI
 ### Please see the Example Files directory for examples of input files for all functionalities expect the Selected Clusters Figure functionality
 
+### Make sure to have python installed on the command line and that pip is installed for ease of implementation.
+- If you do not have python installed, install at [python.org](https://www.python.org/)
 
 # Set-Up
 
 ## 1) Download the source code. 
 `git clone https://github.com/hisl6802/ECCO`
-or by downloading a zip file from the 
+or by downloading a zip file from the Code <> button above.
 
+## 2) Set up a virtual environment (example of how to establish with conda below):
+- It is not required that you run this in a virtual environment but highly recommended
+`conda create ECCO_env`
+`conda activate ECCO_env`
 
-# I do recommend running this in a virtual environment. I prefer conda virtual environments but other python based environments should work. 
-## If you already have python installed with pip on the command install packages using:
+## 3) Install the packages necessary to run the UI
 `pip install <package>`
 
-## If you do not have python installed, install at [python.org](https://www.python.org/)
-### Make sure to have python installed on the command line and that you install pip.
-
-## Make sure to download the following libraries before getting started with this UI.
+Make sure to download the following packages before getting started with this UI.
 - [numpy](https://numpy.org/)  
 - [scipy](https://www.scipy.org/)
 - [pandas](https://pandas.pydata.org/)
@@ -29,8 +31,7 @@ or by downloading a zip file from the
 - [mplcursors](https://pypi.org/project/mplcursors/)
 - openpyxl (needed for reading in excel sheets)
 
-
-## After downloading the requisite libaries needed. Open a shell in IDLE, open the file listed below and run the following program:
+## 4) After downloading the requisite packages needed. Open a shell in IDLE, open the file listed below and run the following program:
 
 `ECCO_UI.py`
 
