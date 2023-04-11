@@ -4,7 +4,10 @@
 
 # Set-Up
 
-## 1) 
+## 1) Download the source code. 
+``
+
+
 # I do recommend running this in a virtual environment. I prefer conda virtual environments but other python based environments should work. 
 ## If you already have python installed with pip on the command install packages using:
 `pip install <package>`
