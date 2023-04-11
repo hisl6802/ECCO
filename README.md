@@ -6,7 +6,7 @@
 `pip install <package>`
 
 ## If you do not have python installed, install at [python.org](https://www.python.org/)
-### Make sure to have python installed on the command line and that it install pip
+### Make sure to have python installed on the command line and that you install pip.
 
 ## Make sure to download the following libraries before getting started with this UI.
 - [numpy](https://numpy.org/)  
