@@ -1,8 +1,10 @@
 # ECCO UI
-### Please see the Example Files directory for examples of input files for all functionalities expect the Selected Clusters Figure functionality
+## This UI was designed on a server and thus can support multi-threading, and for the best performance should be run on a UI enabled server or cluster.
+-Please see the Example Files directory for examples of input files for all functionalities expect the Selected Clusters Figure functionality
 
 ### Make sure to have python installed on the command line and that pip is installed for ease of implementation.
 - If you do not have python installed, install at [python.org](https://www.python.org/)
+
 
 # Set-Up
 
