@@ -5,7 +5,7 @@
 ## If you already have python installed with pip on the command install packages using:
 `pip install <package>`
 
-## If you do not have python installed, install at [python.org](python.org)
+## If you do not have python installed, install at [python.org](https://www.python.org/)
 ### Make sure to have python installed on the command line and that it install pip
 
 ## Make sure to download the following libraries before getting started with this UI.
