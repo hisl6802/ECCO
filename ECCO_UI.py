@@ -47,7 +47,7 @@ class JuneLabClusteringGUI(ttk.Frame):
 		self.ThreadsLab = ttk.Label(self, text="Number of threads:",font=("TkHeadingFont",16)).grid(column=2,row=3,sticky=(N,S,E,W),pady=1)
 		self.entryThreads = ttk.Entry(self,textvariable=self.threads).grid(column=2,row=4,sticky=(N,S,E,W), pady=1,padx = 5)
 		self.ThreadsULab = ttk.Label(self, text="You have "+str(numThreads)+ " available. (Using half or less is recommended.)",font=("TkHeadingFont",16)).grid(column=2,row=5,sticky=(N,S,E,W),pady=2)
-		self.dataPreprocessing = ttk.Button(self, text="Pre-Process", command=self.preprocess).grid(column=2,row=6,sticky=(N,S,E,W),columnspan=1)
+		self.dataPreprocessing = ttk.Button(self, text="Pre-Process (Remove Duplicates)", command=self.preprocess).grid(column=2,row=6,sticky=(N,S,E,W),columnspan=1)
 		self.getStarted = ttk.Button(self,text="Get Started!",command=self.create_widgets).grid(column=2, row=7,sticky=(N,S,E,W),columnspan=1)
 
 	def create_widgets(self):
