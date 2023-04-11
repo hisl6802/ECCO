@@ -1,6 +1,10 @@
 # ECCO UI
 ### Please see the Example Files directory for examples of input files for all functionalities expect the Selected Clusters Figure functionality
 
+
+# Set-Up
+
+## 1) 
 # I do recommend running this in a virtual environment. I prefer conda virtual environments but other python based environments should work. 
 ## If you already have python installed with pip on the command install packages using:
 `pip install <package>`
