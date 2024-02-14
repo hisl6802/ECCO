@@ -1,6 +1,11 @@
 # Clustering toolbox
 ## Design
-This UI was designed to support the implementation and ease of use for ensemble clustering combined with clustering optimization (ECCO). 
+The Clustering Toolbox here was designed as a user interface that allows for clustering analysis of untargeted metabolomics data. 
+
+
+
+
+UI was designed to support the implementation and ease of use for ensemble clustering combined with clustering optimization (ECCO). 
 
 
 
