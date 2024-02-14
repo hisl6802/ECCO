@@ -1,4 +1,4 @@
-# Ensemble Clustering combined with Clustering Optimization
+# Ensemble Clustering combined with Clustering Optimization (ECCO)
 ## This UI was designed on a server and thus can support multi-threading, and for the best performance should be run on a UI enabled server or cluster.
 -Please see the Example Files directory for examples of input files for all functionalities expect the Selected Clusters Figure functionality
 
