@@ -1,6 +1,6 @@
 # Clustering toolbox
 ## Design
-The Clustering Toolbox here was designed as a user interface that allows for clustering analysis of untargeted metabolomics data. 
+The Clustering Toolbox available here was designed as a user interface that allows for clustering analysis of untargeted metabolomics data.
 
 
 
