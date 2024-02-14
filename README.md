@@ -1,17 +1,11 @@
 # Clustering toolbox
 ## Design
-The Clustering Toolbox available here was designed as a user interface that allows for clustering analysis of untargeted metabolomics data.
+The Clustering Toolbox available here was designed as a user interface that allows for clustering analysis of untargeted metabolomics data. This user interface contains 23 functionalities spanning from hierarchical clustering to clustering comparision to KEGG pathways analysis. Most functionalities within this UI contain user options allow for customization of analyses. Furthermore, we provide a start-up window that allows the user to define the number of threads (e.g., processes they would like to use during analysis allowing for rapid clustering analysis. 
+
+## Ensemble Clustering combined with Clustering Optimization (ECCO)
+Ensemble clustering combined with Clustering Optimization or ECCO is the main functionality within the clustering toolbox. This form of ensemble clustering is discussed in our pre-print [pre-print](https://www.biorxiv.org/content/10.1101/2022.11.03.515009v1.abstract) and can be adapted for your preferences. 
 
 
-
-
-UI was designed to support the implementation and ease of use for ensemble clustering combined with clustering optimization (ECCO). 
-
-
-
-
-Ensemble Clustering combined with Clustering Optimization (ECCO)
-## This UI was designed on a server and thus can support multi-threading, and for the best performance should be run on a UI enabled server or cluster.
 -Please see the Example Files directory for examples of input files for all functionalities expect the Selected Clusters Figure functionality
 
 ### Make sure to have python installed on the command line and that pip is installed for ease of implementation.
